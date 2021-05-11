@@ -45,3 +45,4 @@ jobs:
             username: root
             password: ${{ secrets.PASSWORD }}
             concurrency: 20
+            rmRemote: true
