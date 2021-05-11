@@ -15,7 +15,7 @@
 
 <style lang="scss" scoped>
 .page {
-  padding: 0 15px;
+  padding: 10px 15px;
   max-width: 600px;
   margin: 0 auto;
 }
