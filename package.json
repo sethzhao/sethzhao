@@ -7,12 +7,15 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "element-plus": "^1.0.2-beta.44",
     "sass": "^1.32.12",
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.5",
-    "vite": "^2.2.3"
+    "vite": "^2.2.3",
+    "vite-plugin-style-import": "^0.10.0"
   }
 }

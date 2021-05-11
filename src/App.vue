@@ -2,31 +2,16 @@
   <div class="page">
     <header>
       <h1 class="logo"><a href="/">Set Zhao</a></h1>
-    </header>
-    <main>
-      <section class="head">
-        <img class="headimg" alt="my head image" src="./assets/head.jpg" />
-        <div class="name">赵樊健</div>
-      </section>
 
-      <div class="intro">
-        <p>我是一名全栈WEB开发者，生活在上海。</p>
+      <div class="navs">
+        <router-link class="nav-item" to="/work">作品</router-link>
+        <router-link class="nav-item" to="/comment">留言</router-link>
       </div>
-
-      <section class="contact">
-        <h2>联系方式</h2>
-        <div>微信：slertness</div>
-        <div>邮箱：slert@qq.com</div>
-      </section>
-    </main>
+    </header>
+    <router-view></router-view>
     <footer></footer>
   </div>
 </template>
-
-<script setup>
-import { defineProps, reactive } from 'vue'
-
-</script>
 
 <style lang="scss" scoped>
 .page {
@@ -42,40 +27,26 @@ header {
 
   .logo {
     font-size: 24px;
-    color: #2c3e50;
+    color: #cb997e;
     font-weight: bold;
-  }
-}
 
-main {
-
-}
-
-
-section {
-  margin: 20px 0;
-
-  h2 {
-    font-size: 18px;
-    font-weight: bold;
-  }
-}
-
-.head {
-  .headimg {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 10px auto;
+    &:hover {
+      color: #ddbea9;
+    }
   }
 
-  .name {
-    text-align: center;
-    font-size: 20px;
+  .navs {
+    margin-left: auto;
+    color: #cb997e;
+    margin-right: -8px;
+
+    .nav-item {
+      margin: 0 8px;
+
+      &:hover {
+        color: #ddbea9;
+      }
+    }
   }
-}
-
-.contact {
-
 }
 </style>
