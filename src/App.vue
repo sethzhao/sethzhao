@@ -4,8 +4,9 @@
       <h1 class="logo"><a href="/">Set Zhao</a></h1>
 
       <div class="navs">
+        <!-- <router-link class="nav-item" to="/about">关于</router-link> -->
         <router-link class="nav-item" to="/work">作品</router-link>
-        <router-link class="nav-item" to="/comment">留言</router-link>
+        <!-- <router-link class="nav-item" to="/comment">留言</router-link> -->
       </div>
     </header>
     <router-view></router-view>
@@ -49,4 +50,6 @@ header {
     }
   }
 }
+
+
 </style>

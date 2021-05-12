@@ -23,16 +23,6 @@ import { defineProps, reactive } from 'vue'
 </script>
 
 <style lang="scss" scoped>
-section {
-  margin: 20px 0;
-
-  h2 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #cb997e;
-  }
-}
-
 .head {
   .headimg {
     width: 200px;

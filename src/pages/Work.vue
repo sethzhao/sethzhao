@@ -49,12 +49,7 @@ const state  = reactive({
 
 </script>
 
-
 <style lang="scss" scoped>
-section {
-  margin: 20px 0;
-}
-
 .work-title {
   color: #cb997e;
   font-size: 16px;

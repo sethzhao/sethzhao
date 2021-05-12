@@ -5,10 +5,11 @@ import 'element-plus/packages/theme-chalk/src/base.scss'
 
 import App from './App.vue'
 import './styles/reset.css'
-import './styles/main.css'
+import './styles/main.scss'
 import Home from './pages/Home.vue'
 import Work from './pages/Work.vue'
 import Comment from './pages/Comment.vue'
+import About from './pages/About.vue'
 
 const routes = [
   {
@@ -26,6 +27,11 @@ const routes = [
     name: "Comment",
     component: Comment,
   },
+  {
+    path: "/about",
+    name: "About",
+    component: About,
+  }
 ];
 
 const router = createRouter({
