@@ -38,7 +38,7 @@ if (post) {
   .post-title {
     font-size: 30px;
     font-weight: bold;
-    color: #cb997e;
+    color: #c05f5d;
     margin-bottom: 5px;
   }
 
