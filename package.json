@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "new-post": "node ./src/commands/newPost.js"
   },
   "dependencies": {
     "element-plus": "^1.0.2-beta.44",
