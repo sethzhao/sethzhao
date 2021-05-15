@@ -71,6 +71,7 @@ const state  = reactive({
 
   .work-images-item {
     margin: 0 5px;
+    display: flex;
     img {
       width: 100%;
     }

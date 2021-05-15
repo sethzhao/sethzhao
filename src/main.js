@@ -9,7 +9,8 @@ import './styles/main.scss'
 import Home from './pages/Home.vue'
 import Work from './pages/Work.vue'
 import Comment from './pages/Comment.vue'
-import About from './pages/About.vue'
+import Blog from './pages/Blog.vue'
+import Post from './pages/Post.vue'
 
 const routes = [
   {
@@ -28,10 +29,15 @@ const routes = [
     component: Comment,
   },
   {
-    path: "/about",
-    name: "About",
-    component: About,
-  }
+    path: "/blog",
+    name: "Blog",
+    component: Blog,
+  },
+  {
+    path: "/blog/:title",
+    name: "Post",
+    component: Post
+  },
 ];
 
 const router = createRouter({
