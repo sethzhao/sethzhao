@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "new-post": "node ./src/commands/newPost.js"
+    "new-post": "node ./src/scripts/newPost.js"
   },
   "dependencies": {
     "element-plus": "^1.0.2-beta.44",
@@ -16,6 +16,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.5",
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.2",
     "vite": "^2.2.3",
     "vite-plugin-md": "^0.6.6",
     "vite-plugin-style-import": "^0.10.0"
