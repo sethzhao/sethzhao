@@ -7,17 +7,17 @@
       <div class="work-item">
         <div class="work-title">个人网站 - Set Zhao</div>
         <div class="work-desc">
-          <p>就是现在你所访问的这个网站。这是第n次架设个人网站了，不同的是以前都是用wordpress或者hexo之类，这次打算自己开发，也是难得的尝试自己设计样式，🤔虽说还是有些借鉴的，但细节都是自己在把控，目前感觉还过得去。</p>
+          <p>就是现在你所访问的这个网站。这是第 n 次架设个人网站了，不同的是以前都是用 wordpress 或者 hexo 之类，这次打算自己开发，也是难得的尝试自己设计样式，🤔虽说还是有些借鉴的，但细节都是自己在把控，目前感觉还过得去。</p>
         </div>
         <div class="work-link"><a href="https://github.com/slertness/setzhao" target="_blank">-> 源码</a></div>
       </div>
       <div class="work-item">
-        <div class="work-title">H5小游戏 - 企鹅先生</div>
+        <div class="work-title">H5 小游戏 - 企鹅先生</div>
         <div class="work-desc">
-          <p>2014年写的小游戏，现在看着也还不错。原本是个红白机上的游戏，我通过模拟器截图取得素材，靠观察梳理游戏机制。画面可以说做到了像素级还原，玩法也基本还原到位，缺后期的一些奖励机制。一共做了7关，前6关和原作一样，第7关是自己原创的，用墙组成了个“赵”字。🤣</p>
+          <p>2014 年写的小游戏，现在看着也还不错。原本是个红白机上的游戏，我通过模拟器截图取得素材，靠观察梳理游戏机制。画面可以说做到了像素级还原，玩法也基本还原到位，缺后期的一些奖励机制。一共做了 7 关，前 6 关和原作一样，第 7 关是自己原创的，用墙组成了个“赵”字。🤣</p>
           <p style="margin-top: 5px">操作方法：</p>
           <p>1、点击屏幕下方的红色按钮</p>
-          <p>2、键盘wasd控制方向，i控制攻击</p>
+          <p>2、键盘 WASD 控制方向，I 控制攻击</p>
         </div>
         <div class="work-images">
           <div class="work-images-item" v-for="img in state.binarylandImgs" :key="img">

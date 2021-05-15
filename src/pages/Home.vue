@@ -6,7 +6,7 @@
     </section>
 
     <div class="intro">
-      <p>我是一名全栈Web开发者，生活在上海。</p>
+      <p>我是一名全栈 Web 开发者，生活在上海。</p>
     </div>
 
     <section class="contact">
