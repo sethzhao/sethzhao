@@ -21,6 +21,7 @@
     "axios": "^0.21.1",
     "dotenv": "^9.0.2",
     "husky": "^6.0.0",
+    "markdown-it-prism": "^2.1.6",
     "vite": "^2.2.3",
     "vite-plugin-md": "^0.6.6",
     "vite-plugin-style-import": "^0.10.0"

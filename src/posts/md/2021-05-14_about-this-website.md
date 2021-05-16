@@ -20,7 +20,7 @@ Vue 和 React 本质上的不同决定了受 React Hooks 启发的 Composition A
 ## 如何实现
 我目前的做法是用一个 JSON 记录文章的标题和对应的 md 文件名。同时 md 的文件名按照约定定义，由发布时间和将作为 URL 一部分的 friendly URL 组成。  
 JSON 就像这样：
-```
+```json
 [
   {
     "title": "关于这个网站",
@@ -40,11 +40,11 @@ JSON 就像这样：
 于是我写了一个脚本，交互式的引导输入文章标题、友好的URL（默认百度翻译），发布日期（默认当天），帮助我完成以上步骤，剩下只要开始写文章就行了。
 
 执行命令：
-```
+```shell
 npm run new-post
 ```
 或者
-```
+```shell
 yarn run new-post
 ```
 

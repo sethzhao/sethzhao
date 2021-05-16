@@ -8,7 +8,11 @@ export default defineConfig({
     vue({
       include: [/\.vue$/, /\.md$/],
     }),
-    Markdown(),
+    Markdown({
+      markdownItSetup(md) {
+        md.use(require('markdown-it-prism'))
+      }
+    }),
     styleImport({
       libs: [{
         libraryName: 'element-plus',
