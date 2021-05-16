@@ -6,7 +6,8 @@
     "build": "vite build",
     "serve": "vite preview",
     "new-post": "node ./src/scripts/newPost.js",
-    "reading-time": "node ./src/scripts/readingTime.js"
+    "reading-time": "node ./src/scripts/readingTime.js",
+    "prepare": "husky install"
   },
   "dependencies": {
     "element-plus": "^1.0.2-beta.44",
@@ -19,6 +20,7 @@
     "@vue/compiler-sfc": "^3.0.5",
     "axios": "^0.21.1",
     "dotenv": "^9.0.2",
+    "husky": "^6.0.0",
     "vite": "^2.2.3",
     "vite-plugin-md": "^0.6.6",
     "vite-plugin-style-import": "^0.10.0"
