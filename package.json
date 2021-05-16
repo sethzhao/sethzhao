@@ -5,7 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "new-post": "node ./src/scripts/newPost.js"
+    "new-post": "node ./src/scripts/newPost.js",
+    "reading-time": "node ./src/scripts/readingTime.js"
   },
   "dependencies": {
     "element-plus": "^1.0.2-beta.44",

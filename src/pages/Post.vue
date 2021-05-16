@@ -2,7 +2,10 @@
   <div>
     <section class="post-detail">
       <h1 class="post-title">{{ postTitle }}</h1>
-      <div class="publish-date">{{ publishDate }}</div>
+      <div class="post-small">
+        <span class="publish-date">{{ publishDate }}</span>
+        <span class="reading-time"> • 阅读用时 {{ readingTime }} 分钟 {{ readingTimeCoffee(readingTime) }}</span>
+      </div>
       <component :is="currentPostDetail"></component>
     </section>
   </div>
@@ -13,11 +16,16 @@ import { reactive, defineAsyncComponent } from 'vue'
 import { useRoute } from 'vue-router'
 import posts from '../posts/data.json'
 
+function readingTimeCoffee(readingTime) {
+  return Array(Math.floor(readingTime / 5) || 1).fill('☕️').join('')
+}
+
 const route = useRoute()
 
 let currentPostDetail = reactive()
 let postTitle = reactive()
 let publishDate = reactive()
+let readingTime = reactive()
 
 const post = posts.find(post => post.content.split('_')[1] === route.params.title)
 
@@ -28,6 +36,7 @@ if (post) {
 
   publishDate = post.content.split('_')[0]
   postTitle = post.title
+  readingTime = post.readingTime
 }
 
 </script>
@@ -44,8 +53,15 @@ if (post) {
 
   .publish-date {
     font-size: 14px;
-    color: #A5A58D;
+    // color: #A5A58D;
     margin-bottom: 10px;
+  }
+
+  .reading-time {
+  }
+
+  .post-small {
+    margin-bottom: 20px;
   }
 }
 </style>
