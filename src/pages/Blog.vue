@@ -25,7 +25,7 @@ function readingTimeCoffee(readingTime) {
 <style lang="scss" scoped>
 .post-list {
   .post-item {
-    margin: 10px 0;
+    margin: 20px 0;
   }
 
   .publish-date {
