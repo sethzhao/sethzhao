@@ -12,7 +12,7 @@
         <div class="work-link"><a href="https://github.com/slertness/setzhao" target="_blank">-> 源码</a></div>
       </div>
       <div class="work-item">
-        <div class="work-title">H5 小游戏 - 企鹅先生</div>
+        <div class="work-title">小游戏 - 企鹅先生</div>
         <div class="work-desc">
           <p>2014 年写的小游戏，现在看着也还不错。原本是个红白机上的游戏，我通过模拟器截图取得素材，靠观察梳理游戏机制。画面可以说做到了像素级还原，玩法也基本还原到位，缺后期的一些奖励机制。一共做了 7 关，前 6 关和原作一样，第 7 关是自己原创的，用墙组成了个“赵”字。🤣</p>
           <p style="margin-top: 5px">操作方法：</p>
