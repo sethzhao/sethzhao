@@ -5,7 +5,7 @@
         <div class="post-title"><router-link :to="'/blog/' + post.content.split('_')[1]">{{ post.title }}</router-link></div>
         <div>
           <span class="publish-date">{{ post.content.split('_')[0] }}</span>
-          <span class="reading-time"> • 阅读用时 {{ post.readingTime }} 分钟 {{ readingTimeCoffee(readingTime) }}</span>
+          <span class="reading-time"> • 阅读用时 {{ post.readingTime }} 分钟 {{ readingTimeEmoji(post.readingTime) }}</span>
         </div>
       </div>
     </section>
@@ -15,10 +15,6 @@
 <script setup>
 import { defineProps, reactive } from 'vue'
 import posts from '../posts/data.json'
-
-function readingTimeCoffee(readingTime) {
-  return Array(Math.floor(readingTime / 5) || 1).fill('☕️').join('')
-}
 
 </script>
 

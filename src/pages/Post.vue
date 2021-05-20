@@ -4,7 +4,7 @@
       <h1 class="post-title">{{ postTitle }}</h1>
       <div class="post-small">
         <span class="publish-date">{{ publishDate }}</span>
-        <span class="reading-time"> • 阅读用时 {{ readingTime }} 分钟 {{ readingTimeCoffee(readingTime) }}</span>
+        <span class="reading-time"> • 阅读用时 {{ readingTime }} 分钟 {{ readingTimeEmoji(readingTime) }}</span>
       </div>
       <component :is="currentPostDetail"></component>
     </section>
@@ -15,10 +15,6 @@
 import { reactive, defineAsyncComponent } from 'vue'
 import { useRoute } from 'vue-router'
 import posts from '../posts/data.json'
-
-function readingTimeCoffee(readingTime) {
-  return Array(Math.floor(readingTime / 5) || 1).fill('☕️').join('')
-}
 
 const route = useRoute()
 

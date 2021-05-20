@@ -46,8 +46,25 @@ const router = createRouter({
   routes,
 });
 
+const myMixin = {
+  created() {
+    this.hello()
+  },
+  methods: {
+    hello() {
+      console.log('hello from mixin!')
+    }
+  }
+}
 
 const app = createApp(App)
 app.component(ElImage.name, ElImage);
-
+app.mixin({
+  methods: {
+    readingTimeEmoji(readingTime) {
+      const coffeeCount = 2
+      return Array(Math.floor(readingTime / coffeeCount) || 1).fill('☕️').join('')
+    }
+  }
+})
 app.use(router).mount('#app')
