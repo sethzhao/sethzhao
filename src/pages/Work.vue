@@ -12,6 +12,13 @@
         <div class="work-link"><a href="https://github.com/slertness/setzhao" target="_blank">-> 源码</a></div>
       </div>
       <div class="work-item">
+        <div class="work-title">脚手架 - generator-rem</div>
+        <div class="work-desc">
+          <p>这是一个 yeoman generator 。生成使用 rem 方式适配移动终端的 web 工程。支持 sass, autoprefixer, liveReload 等，并可以自动将 px 转成 rem 。用的是手淘 H5 的适配方案。当年发到 npm 上就没怎么管，也完全没推广，可现在看看每周还有那么几个下载，属实意外。</p>
+        </div>
+        <div class="work-link"><a href="https://www.npmjs.com/package/generator-rem" target="_blank">-> npm</a><a href="https://github.com/slertness/generator-rem" target="_blank">-> 源码</a></div>
+      </div>
+      <div class="work-item">
         <div class="work-title">小游戏 - 企鹅先生</div>
         <div class="work-desc">
           <p>2014 年写的小游戏，现在看着也还不错。原本是个红白机上的游戏，我通过模拟器截图取得素材，靠观察梳理游戏机制。画面可以说做到了像素级还原，玩法也基本还原到位，缺后期的一些奖励机制。一共做了 7 关，前 6 关和原作一样，第 7 关是自己原创的，用墙组成了个“赵”字。🤣</p>
@@ -62,7 +69,7 @@ const state  = reactive({
 }
 
 .work-item {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .work-images {
