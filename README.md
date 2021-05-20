@@ -1,2 +1,2 @@
 # setzhao
-my home page
+my home page and static blog
