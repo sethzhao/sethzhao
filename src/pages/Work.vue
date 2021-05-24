@@ -9,14 +9,14 @@
         <div class="work-desc">
           <p>就是现在你所访问的这个网站。这是第 n 次架设个人网站了，不同的是以前都是用 wordpress 或者 hexo 之类，这次打算自己开发，也是难得的尝试自己设计样式，🤔虽说还是有些借鉴的，但细节都是自己在把控，目前感觉还过得去。</p>
         </div>
-        <div class="work-link"><a href="https://github.com/slertness/setzhao" target="_blank">-> 源码</a></div>
+        <div class="work-link"><a href="https://github.com/slertness/setzhao" target="_blank">-> github</a></div>
       </div>
       <div class="work-item">
         <div class="work-title">脚手架 - generator-rem</div>
         <div class="work-desc">
           <p>这是一个 yeoman generator 。生成使用 rem 方式适配移动终端的 web 工程。支持 sass, autoprefixer, liveReload 等，并可以自动将 px 转成 rem 。用的是手淘 H5 的适配方案。当年发到 npm 上就没怎么管，也没推广过，可现在看看每周还有那么几个下载，属实意外。</p>
         </div>
-        <div class="work-link"><a href="https://www.npmjs.com/package/generator-rem" target="_blank">-> npm</a><a href="https://github.com/slertness/generator-rem" target="_blank">-> 源码</a></div>
+        <div class="work-link"><a href="https://www.npmjs.com/package/generator-rem" target="_blank">-> npm</a><a href="https://github.com/slertness/generator-rem" target="_blank">-> github</a></div>
       </div>
       <div class="work-item">
         <div class="work-title">小游戏 - 企鹅先生</div>
@@ -34,7 +34,7 @@
             </el-image>
           </div>
         </div>
-        <div class="work-link"><a href="//setzhao.com/binaryland" target="_blank">-> 在线体验</a><a href="https://github.com/slertness/binaryland" target="_blank">-> 源码</a></div>
+        <div class="work-link"><a href="//setzhao.com/binaryland" target="_blank">-> 在线体验</a><a href="https://github.com/slertness/binaryland" target="_blank">-> github</a></div>
       </div>
     </section>
   </div>
