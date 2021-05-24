@@ -59,7 +59,7 @@ const state  = reactive({
 <style lang="scss" scoped>
 .work-title {
   color: #cb997e;
-  font-size: 16px;
+  font-size: 1.25em;
   font-weight: bold;
   margin-bottom: 5px;
 }
