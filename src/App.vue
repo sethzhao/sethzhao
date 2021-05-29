@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <header>
-      <h1 class="logo"><router-link to="/">Set Zhao</router-link></h1>
+      <h1 class="logo"><router-link to="/">Seth Zhao</router-link></h1>
 
       <div class="navs">
         <router-link class="nav-item" to="/">关于</router-link>

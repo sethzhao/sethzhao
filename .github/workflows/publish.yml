@@ -40,7 +40,7 @@ jobs:
         uses: garygrossgarten/github-action-scp@release
         with:
             local: dist
-            remote: /data/web/setzhao/dist
+            remote: /data/web/sethzhao/dist
             host: ${{ secrets.HOST }}
             username: root
             password: ${{ secrets.PASSWORD }}

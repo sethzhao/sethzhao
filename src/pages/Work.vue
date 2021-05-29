@@ -5,11 +5,11 @@
     </section>
     <section class="work-list">
       <div class="work-item">
-        <div class="work-title">个人网站 - Set Zhao</div>
+        <div class="work-title">个人网站 - Seth Zhao</div>
         <div class="work-desc">
           <p>就是现在你所访问的这个网站。这是第 n 次架设个人网站了，不同的是以前都是用 wordpress 或者 hexo 之类，这次打算自己开发，也是难得的尝试自己设计样式，🤔虽说还是有些借鉴的，但细节都是自己在把控，目前感觉还过得去。</p>
         </div>
-        <div class="work-link"><a href="https://github.com/slertness/setzhao" target="_blank">-> github</a></div>
+        <div class="work-link"><a href="https://github.com/slertness/sethzhao" target="_blank">-> github</a></div>
       </div>
       <div class="work-item">
         <div class="work-title">脚手架 - generator-rem</div>
@@ -34,7 +34,7 @@
             </el-image>
           </div>
         </div>
-        <div class="work-link"><a href="//setzhao.com/binaryland" target="_blank">-> 在线体验</a><a href="https://github.com/slertness/binaryland" target="_blank">-> github</a></div>
+        <div class="work-link"><a href="//sethzhao.com/binaryland" target="_blank">-> 在线体验</a><a href="https://github.com/slertness/binaryland" target="_blank">-> github</a></div>
       </div>
     </section>
   </div>
