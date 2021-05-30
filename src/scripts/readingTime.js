@@ -11,7 +11,7 @@ data.forEach(item => {
   const minutes = content.length / wordsPerMinute
   var displayed = Math.ceil(minutes.toFixed(2))
 
-  item.readingTime = displayed
+  item.readingTime = displayed || 1
 });
 
 fs.writeFileSync('./src/posts/data.json', JSON.stringify(data, null, 2))
