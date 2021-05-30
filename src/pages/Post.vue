@@ -48,8 +48,6 @@ if (post) {
   }
 
   .publish-date {
-    font-size: 14px;
-    // color: #A5A58D;
     margin-bottom: 10px;
   }
 

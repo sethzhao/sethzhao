@@ -25,12 +25,10 @@ import posts from '../posts/data.json'
   }
 
   .publish-date {
-    // color: #A5A58D;
     flex-shrink: 0;
   }
 
   .reading-time {
-    // color: #A5A58D;
   }
 
   .post-title {
