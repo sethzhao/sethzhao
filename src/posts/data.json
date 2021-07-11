@@ -1,5 +1,10 @@
 [
   {
+    "title": "使用 slugify 生成 url",
+    "content": "2021-07-11_using-slugify-to-generate-url",
+    "readingTime": 3
+  },
+  {
     "title": "给博客增加阅读时间显示",
     "content": "2021-05-16_add-reading-time-display-to-blog",
     "readingTime": 3
