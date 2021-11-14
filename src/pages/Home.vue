@@ -13,6 +13,7 @@
       <h2>联系方式</h2>
       <div>微信：slertness</div>
       <div>邮箱：slert@qq.com</div>
+      <div>ENS：sethzhao.eth</div>
     </section>
   </div>
 </template>
