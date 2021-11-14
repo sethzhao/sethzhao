@@ -29,3 +29,4 @@ wordBound 判断字符是不是空格、换行、制表符等。看下来这段�
 
 # 自动化
 安装 husky ，在 git pre-commit hook 执行计算阅读时间的脚本。
+可以用 git commit --amend 将阅读时间的修改合并到原 commit 里。这里也许可以更自动化。
