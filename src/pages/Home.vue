@@ -6,7 +6,7 @@
     </section>
 
     <div class="intro">
-      <p>区块链晚期投资人、连续失业者、全干工程师，新手猫爸。</p>
+      <p>区块链晚期投资人 / 连续失业者 / 全干工程师 / 新手猫爸</p>
     </div>
 
     <section class="contact">
