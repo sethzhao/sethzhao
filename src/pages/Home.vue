@@ -11,10 +11,19 @@
 
     <section class="contact">
       <h2>联系方式</h2>
-      <div>微信：sethzhao25</div>
-      <div>邮箱：slert@qq.com</div>
-      <div>ENS：sethzhao.eth</div>
+      <div>微信: sethzhao25</div>
+      <div>邮箱: 156321118@qq.com</div>
     </section>
+
+    <section class="ns">
+      <h2>各种域名</h2>
+      <div>DNS: sethzhao.xyz, sethzhao.com</div>
+      <div>ENS: sethzhao.eth</div>
+      <div>UD: sethzhao.crypto, sethzhao.wallet</div>
+      <div>TNS: sethzhao.ust</div>
+      <div>Nametag: sethzhao</div>
+    </section>
+
   </div>
 </template>
 
