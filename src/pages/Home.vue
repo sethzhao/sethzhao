@@ -6,7 +6,7 @@
     </section>
 
     <div class="intro">
-      <p>区块链晚期投资人 / 连续失业者 / 全干工程师 / 猫之使徒 / 训练中的英雄</p>
+      <p>Web3 原住民 / 区块链晚期投资人 / 连续失业者 / 全干工程师 / 猫之使徒 / 训练中的英雄</p>
     </div>
 
     <section class="contact">
@@ -21,6 +21,7 @@
       <div>ENS: sethzhao.eth</div>
       <div>UD: sethzhao.crypto, sethzhao.wallet</div>
       <div>TNS: sethzhao.ust</div>
+      <div>DAS: sethzhao.bit</div>
       <div>Nametag: sethzhao</div>
     </section>
 
