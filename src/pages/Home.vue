@@ -26,6 +26,9 @@
     </section>
 
   </div>
+  <footer>
+    沪ICP备2021013501号
+  </footer>
 </template>
 
 <script setup>
@@ -50,5 +53,13 @@ import { defineProps, reactive } from 'vue'
 
 .contact {
 
+}
+
+footer {
+  margin-top: auto;
+  padding-top: 10px;
+  font-size: 12px;
+  text-align: right;
+  color: #aaa;
 }
 </style>

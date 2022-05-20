@@ -11,7 +11,6 @@
       </div>
     </header>
     <router-view></router-view>
-    <footer></footer>
   </div>
 </template>
 
@@ -20,6 +19,9 @@
   padding: 10px 24px;
   max-width: 750px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -51,6 +53,5 @@ header {
     }
   }
 }
-
 
 </style>
