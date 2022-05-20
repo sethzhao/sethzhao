@@ -34,7 +34,7 @@
             </el-image>
           </div>
         </div>
-        <div class="work-link"><a href="//sethzhao.com/binaryland" target="_blank">-> 在线体验</a><a href="https://github.com/sethzhao/binaryland" target="_blank">-> github</a></div>
+        <div class="work-link"><a href="https://binaryland.sethzhao.xyz" target="_blank">-> 在线体验</a><a href="https://github.com/sethzhao/binaryland" target="_blank">-> github</a></div>
       </div>
     </section>
   </div>
