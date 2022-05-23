@@ -27,7 +27,7 @@
 
   </div>
   <footer>
-    沪ICP备2021013501号
+    <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2021013501号</a>
   </footer>
 </template>
 
