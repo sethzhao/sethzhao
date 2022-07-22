@@ -1,4 +1,4 @@
-之前有提到我写了一个脚本用来创建新文章，其中一个步骤是生成友好的 url 。
+之前有提到我写了一个脚本用来创建新文章，其中一个步骤是生成友好的 URL 。
 
 我的做法是用先将中文标题翻译成英语，然后全部转成小写，再将空格替换成“-”，将其他标点符号等全去除。   
 
@@ -12,7 +12,7 @@ const trans = trans_result.toLowerCase().replace(/\s+/g, '-').replace(/[\ |\~|\`
 
 最近偶然发现了 [slugify](https://github.com/sindresorhus/slugify) 这个库，显然它把这件事做得更好，于是我果断将这个工作交由它来完成。
 
-中间小插曲是这个库只能使用 esm 引入，我不得不将整个脚本改为 esm 的模式。
+中间小插曲是这个库只能使用 ESM 引入，我不得不将整个脚本改为 ESM 的模式。
 
 [slugify](https://github.com/sindresorhus/slugify) 来自于 [Sindre Sorhus](https://github.com/sindresorhus)，一个非常高产的全职开源开发者，他的作品大部分是这样小而美的项目，能把一件简单的事情做好就很有价值。相比起来，我虽然有心写开源项目，却总是苦于不知道去写什么，好像这个世界上值得写的东西别人都写过了，其实明明不是这样。
 
