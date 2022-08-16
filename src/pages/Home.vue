@@ -5,9 +5,10 @@
       <div class="name">赵樊健</div>
     </section>
 
-    <div class="intro">
+    <section class="intro">
+      <h2>斜杠青年</h2>
       <p>Web3 共建者 / 区块链晚期投资人 / 连续失业者 / 全干工程师 / 猫之使徒 / 剧本杀软核玩家 / 陆冲板混 / 训练中的英雄</p>
-    </div>
+    </section>
 
     <section class="contact">
       <h2>联系方式</h2>
