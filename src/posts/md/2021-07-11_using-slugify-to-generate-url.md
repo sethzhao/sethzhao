@@ -14,6 +14,6 @@ const trans = trans_result.toLowerCase().replace(/\s+/g, '-').replace(/[\ |\~|\`
 
 中间小插曲是这个库只能使用 ESM 引入，我不得不将整个脚本改为 ESM 的模式。
 
-[slugify](https://github.com/sindresorhus/slugify) 来自于 [Sindre Sorhus](https://github.com/sindresorhus)，一个非常高产的全职开源开发者，他的作品大部分是这样小而美的项目，能把一件简单的事情做好就很有价值。相比起来，我虽然有心写开源项目，却总是苦于不知道去写什么，好像这个世界上值得写的东西别人都写过了，其实明明不是这样。
+[slugify](https://github.com/sindresorhus/slugify) 来自于 [Sindre Sorhus](https://github.com/sindresorhus)，一个非常高产的全职开源开发者，他的作品大部分是这样小而美的项目，能把一件简单的事情做好就很有价值。相比起来，我虽然有心写开源项目，却总是苦于不知道去写什么，好像这个世界上所有值得写的东西别人都写过了，其实明明不是这样。
 
 这次的文章就到此为止，距离上篇文章快有两个月了，目前看来都是专注于记录本博客的开发和改进过程。希望之后能想到其他值得写的内容。
