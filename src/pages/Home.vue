@@ -18,7 +18,7 @@
 
     <section class="ns">
       <h2>各种域名</h2>
-      <div>DNS: sethzhao.xyz, sethzhao.com</div>
+      <div>DNS: sethzhao.xyz, sethzhao.wtf, sethzhao.com</div>
       <div>ENS: sethzhao.eth</div>
       <div>UD: sethzhao.crypto, sethzhao.wallet, sethzhao.x</div>
       <div>TNS: sethzhao.ust</div>
