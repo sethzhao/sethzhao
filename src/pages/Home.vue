@@ -12,7 +12,7 @@
     <section class="contact">
       <h2>联系方式</h2>
       <div>微信: sethzhao25</div>
-      <div>邮箱: <a href="mailto:156321118@qq.com">156321118@qq.com</a>, <a href="mailto:slertness@gmail.com">slertness@gmail.com</a></div>
+      <div>邮箱: <a href="mailto:156321118@qq.com">156321118@qq.com</a>, <a href="mailto:sethzhao25@gmail.com">sethzhao25@gmail.com</a></div>
       <div>GitHub: <a href="https://github.com/sethzhao" target="_blank">https://github.com/sethzhao</a></div>
     </section>
 
