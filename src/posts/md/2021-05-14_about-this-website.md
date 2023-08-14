@@ -51,7 +51,7 @@ yarn run new-post
 用 Github Actions 做的自动部署，很好用。
 
 # 源码分享
-如果有人对源码感兴趣的话，可以移步 Github。[链接](https://github.com/slertness/sethzhao)
+如果有人对源码感兴趣的话，可以移步 Github。[链接](https://github.com/sethzhao/sethzhao)
 
 # 最后
 本站受到 [Randy's Blog](https://lutaonan.com/) 的启发，他是一位我很欣赏的开发者。

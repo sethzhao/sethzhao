@@ -8,7 +8,7 @@ import './styles/reset.css'
 import './styles/main.scss'
 import './styles/prism.css'
 import Home from './pages/Home.vue'
-import Work from './pages/Work.vue'
+import Game from './pages/Game.vue'
 import Comment from './pages/Comment.vue'
 import Blog from './pages/Blog.vue'
 import Post from './pages/Post.vue'
@@ -20,9 +20,9 @@ const routes = [
     component: Home,
   },
   {
-    path: "/work",
-    name: "Work",
-    component: Work,
+    path: "/game",
+    name: "Game",
+    component: Game,
   },
   {
     path: "/comment",
