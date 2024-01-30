@@ -6,13 +6,13 @@
     </section>
 
     <section class="intro">
-      <p>Web3 打工人 / 区块链晚期投资人 / 连续失业者 / 全干工程师 / 猫之使徒 / 剧本杀软核玩家 / 陆冲板混 / 德扑小鱼</p>
+      <p>Web3 打工人 / 区块链晚期投资人 / 连续失业者 / 全干工程师 / 剧本杀软核玩家 / 德扑小鱼</p>
     </section>
 
     <section class="contact">
       <h2>联系方式</h2>
       <div>微信: sethzhao25</div>
-      <div>邮箱: <a href="mailto:156321118@qq.com">156321118@qq.com</a>, <a href="mailto:sethzhao25@gmail.com">sethzhao25@gmail.com</a></div>
+      <div>邮箱: <a href="mailto:sethzhao25@gmail.com">sethzhao25@gmail.com</a></div>
       <div>GitHub: <a href="https://github.com/sethzhao" target="_blank">https://github.com/sethzhao</a></div>
     </section>
 
