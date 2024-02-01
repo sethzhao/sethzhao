@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "new-post": "node ./src/scripts/newPost.mjs",
+    "new": "node ./src/scripts/newPost.mjs",
     "reading-time": "node ./src/scripts/readingTime.js",
     "prepare": "husky install"
   },
