@@ -2,7 +2,7 @@
 
 开发方式按照官方文档指导是用 [@binance/mp-cli](https://www.npmjs.com/package/@binance/mp-cli) 这个命令行工具创建项目，过程中可以选择用 React 或者 Vue2 开发，创建以后可以发现是一个 [Taro](https://docs.taro.zone/) 项目。
 
-Taro 可以用 React、Vue 去开发各种平台的小程序。所以币安小程序基本就是把各种现成的东西拿来改吧改吧变成自己的。
+所以币安小程序基本就是把各种现成的东西拿来改吧改吧变成自己的。
 
 我的问题是我想用 Vue3 来开发，但是币安的命令行工具创建的项目不支持。而 Taro 本身是支持 Vue3 的。
 
