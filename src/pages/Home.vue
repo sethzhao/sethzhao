@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="head">
-      <img class="headimg" alt="my head image" src="../assets/head.jpg" />
+      <img class="headimg" alt="my head image" src="../assets/head.webp" />
       <div class="name">赵樊健</div>
     </section>
 

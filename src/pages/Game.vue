@@ -104,8 +104,8 @@ import fatluteImg2 from '../assets/fatlute2.jpg'
 import strideImg1 from '../assets/stride1.jpg'
 import strideImg2 from '../assets/stride2.jpg'
 import strideImg3 from '../assets/stride3.jpg'
-import yaduoImg1 from '../assets/yaduo1.png'
-import yaduoImg2 from '../assets/yaduo2.png'
+import yaduoImg1 from '../assets/yaduo1.webp'
+import yaduoImg2 from '../assets/yaduo2.webp'
 
 const state  = reactive({
   binarylandImgs: [
